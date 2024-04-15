@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{8afb352f-c654-4361-a002-c7b90009704a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature">
+      <UniqueIdentifier>{16b435cd-a03b-478f-8a6e-32d483e3b710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\data">
+      <UniqueIdentifier>{591dd12f-7a54-4eff-9945-589a59b001f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\domain">
+      <UniqueIdentifier>{70162423-ae75-482b-8cc5-cc5120e146fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\presentation">
+      <UniqueIdentifier>{25d6a69a-a7ad-44fc-94a8-528c932a0063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\theme">
+      <UniqueIdentifier>{69c22eca-c7c7-448c-b923-9361f7cfc6d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\consts">
+      <UniqueIdentifier>{f0c05708-203e-48d1-a820-cac1c91918e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{8059f988-5463-4547-8517-bb9b79be9106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application">
+      <UniqueIdentifier>{98adf0bb-42a4-4fed-bfc2-651b4bd78dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\dev">
+      <UniqueIdentifier>{fc5c7424-ae1f-458e-a11f-cf2fc001ec47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\prod">
+      <UniqueIdentifier>{84a86501-2f45-4a4c-8c07-b14604e562f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\stage">
+      <UniqueIdentifier>{fcdaba51-17d6-4e59-ad39-d78a458394dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\library">
+      <UniqueIdentifier>{701f9c3c-298b-4206-9a6a-1c56add428ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\flavors">
+      <UniqueIdentifier>{531f28da-5de1-4c00-98be-425e62f5a8fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\presentation\screens">
+      <UniqueIdentifier>{5e1685fc-fe52-41b2-9482-7917d913aeee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\domain\models">
+      <UniqueIdentifier>{499ca8d3-d796-402b-90c4-d340b2451d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\domain\repository">
+      <UniqueIdentifier>{9594bfaa-d944-4c33-a559-55cebd6f0df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\consts\error">
+      <UniqueIdentifier>{34a3e836-8bec-4d4d-a65c-1086ccdb3546}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="home_screens.cpp">
+      <Filter>feature\presentation\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="error_screen.cpp">
+      <Filter>feature\presentation\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="user.cpp">
+      <Filter>feature\domain\models</Filter>
+    </ClCompile>
+    <ClCompile Include="validation.cpp">
+      <Filter>feature\domain\repository</Filter>
+    </ClCompile>
+    <ClCompile Include="error.cpp">
+      <Filter>core\consts\error</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dev_main.h">
+      <Filter>application\dev</Filter>
+    </ClInclude>
+    <ClInclude Include="stage_main.h">
+      <Filter>application\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="prod_main.h">
+      <Filter>application\prod</Filter>
+    </ClInclude>
+    <ClInclude Include="library.h">
+      <Filter>core\library</Filter>
+    </ClInclude>
+    <ClInclude Include="flavor.h">
+      <Filter>core\flavors</Filter>
+    </ClInclude>
+    <ClInclude Include="screens.h">
+      <Filter>feature\presentation\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="user.h">
+      <Filter>feature\domain\models</Filter>
+    </ClInclude>
+    <ClInclude Include="validation.h">
+      <Filter>feature\domain\repository</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>core\consts\error</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
